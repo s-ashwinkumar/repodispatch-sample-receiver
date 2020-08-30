@@ -1,0 +1,1 @@
+# repodispatch-sample-receiver
