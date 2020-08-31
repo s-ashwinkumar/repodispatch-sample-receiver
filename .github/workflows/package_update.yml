@@ -14,6 +14,8 @@ jobs:
     - name: package-update
       uses: taichi/actions-package-update@master
       env:
+        AUTHOR_EMAIL: ci@smartcar.com
+        AUTHOR_NAME: SmartcarCI      
         EXECUTE: "true"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LOG_LEVEL: debug
